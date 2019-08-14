@@ -31,8 +31,16 @@ object scanion5000 {
 object camionCerealero {
 
 	var nivelDeterioro = 0
-	var property pesoCarga
-
+	var pesoCarga
+	
+	method pesoCarga(){
+		return pesoCarga
+	}
+	
+	method pesoCarga(unPeso){
+		pesoCarga = unPeso
+	}
+	
 	method velocidadMaxima() = 60 - nivelDeterioro
 	
 	method recorrerRuta(extension, velocidad){
