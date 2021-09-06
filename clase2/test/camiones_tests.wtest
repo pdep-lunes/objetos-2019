@@ -1,8 +1,10 @@
+// import pdepCargas.*
+// import camiones.camionGanado
+
 describe "un contexto" {
 
 	test "testX" {
-		assert.that(true)
+		assert.equals(6000, 600 * 10)
 	}
-
 }
 
